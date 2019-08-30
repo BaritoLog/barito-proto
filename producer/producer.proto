@@ -33,7 +33,7 @@ message ProduceResult {
 service Producer {
     rpc Produce(Timber) returns (ProduceResult) {
         option (google.api.http) = {
-            post: "/*"
+            post: "/produce"
             body: "*"
         };
     }
