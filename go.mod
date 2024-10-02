@@ -1,3 +1,3 @@
-module github.com/BaritoLog/barito-proto
+module github.com/bentol/barito-proto
 
 go 1.20
