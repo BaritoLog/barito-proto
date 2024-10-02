@@ -5,10 +5,10 @@ go 1.21
 toolchain go1.22.3
 
 require (
-	github.com/golang/protobuf v1.3.2
+	github.com/golang/protobuf v1.5.4
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
-	google.golang.org/grpc v1.28.0-pre
-	google.golang.org/protobuf v1.26.0-rc.1
+	google.golang.org/grpc v1.64.0
+	google.golang.org/protobuf v1.33.0
 )
 
 require (
