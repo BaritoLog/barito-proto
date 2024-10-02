@@ -26,7 +26,8 @@ message TimberContext {
     string es_document_type = 5;
     int32  app_max_tps = 6;
     string app_secret = 7;
-    string tps_type = 8;
+    bool disable_app_tps = 8;
+    int32 app_group_max_tps = 9;
 }
 
 message ProduceResult {
