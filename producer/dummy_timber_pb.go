@@ -1,6 +1,6 @@
 package producer
 
-import "github.com/golang/protobuf/ptypes/struct"
+import structpb "github.com/golang/protobuf/ptypes/struct"
 
 func SampleTimberContextProto() *TimberContext {
 	return &TimberContext{
